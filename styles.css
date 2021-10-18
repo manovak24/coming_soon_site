@@ -34,8 +34,7 @@ body {
 }
 
 #athlete-mobile {
-    background: url("https://assets.codepen.io/6060109/athlete-girl.png") no-repeat right top;
-    background-size: cover;
+    background: url('https://assets.codepen.io/6060109/mobile-shoes.jpg') no-repeat 50% 60%;
     height: 250px;
     width: 100%;
 }
@@ -66,7 +65,7 @@ p {
 }
 
 h2:nth-of-type(1) {
-    color: #CD3A24;
+    color: #2F80ED;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -84,13 +83,15 @@ input[type="text"] {
     padding: 0 20px;
     height: 50px;
     box-sizing: border-box;
+    opacity: .65;
 }
 
 input[type="submit"] {
     width: 20%;
     height: 50px;
     box-sizing: border-box;
-    background-color: black;
+    background: #423A3A;
+    background: linear-gradient(331deg, #423A3A 50%, #7C7C7C 100%);
     font-weight: 700;
     font-size: 16px;
     color: white;
@@ -104,7 +105,7 @@ input[type="submit"] {
 /* Medium devices (landscape tablets, 768px and up)*/
 @media only screen and (min-width: 768px) {
     body {
-        background: url('https://assets.codepen.io/6060109/destop-bg.png');
+        background: url('https://assets.codepen.io/6060109/waves.png');
         background-size: cover;
     }
     
@@ -135,8 +136,7 @@ input[type="submit"] {
     .desktop-image {
         display: block;
         width: 50%;
-        background: url('https://assets.codepen.io/6060109/athlete-big.png');
+        background: url('https://assets.codepen.io/6060109/shoes.png');
         background-size: cover;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
     }
 }
